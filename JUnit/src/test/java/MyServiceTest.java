@@ -3,8 +3,7 @@ import org.ashutosh.MyService;
 import org.junit.Test;
 
 import static org.junit.Assert.assertEquals;
-import static org.mockito.Mockito.mock;
-import static org.mockito.Mockito.when;
+import static org.mockito.Mockito.*;
 
 
 public class MyServiceTest {
@@ -20,5 +19,18 @@ public class MyServiceTest {
 
         // Assert
         assertEquals("Mock Data",result);
+    }
+
+    @Test
+    public void testVerifyInteraction() {
+        // Arrange
+        ExternalApi mockApi = mock(ExternalApi.class);
+        MyService service = new MyService(mockApi);
+
+        // Act
+        service.fetchData();
+
+        // Assert
+        verify(mockApi).getData();
     }
 }
