@@ -16,6 +16,9 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class CountryController {
 
+    @Autowired
+    private CountryService countryService;
+
     private static final Logger LOGGER =
             LoggerFactory.getLogger(CountryController.class);
 
@@ -27,5 +30,11 @@ public class CountryController {
         context.close();
         return country;
     }
-    
+
+    @GetMapping("/countries/{code}")
+    public Country getCountry(@PathVariable String code) {
+        return countryService.getCountry(code);
+    }
+
+
 }
