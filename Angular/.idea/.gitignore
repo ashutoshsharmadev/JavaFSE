@@ -1,0 +1,36 @@
+# Default ignored files
+/shelf/
+/workspace.xml
+# Editor-based HTTP Client requests
+/httpRequests/
+# Ignored default folder with query files
+/queries/
+# Datasource local storage ignored files
+/dataSources/
+/dataSources.local.xml
+
+/node_modules
+/dist
+/.angular
+.vscode/
+
+# dependencies
+/node_modules
+
+# build output
+/dist
+
+# Angular cache
+/.angular
+
+# IDE
+.vscode/
+.idea/
+
+# Logs
+npm-debug.log
+yarn-error.log
+
+# OS files
+.DS_Store
+Thumbs.db

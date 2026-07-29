@@ -33,3 +33,9 @@ bin/
 Digital-Nurture-JavaFSE-main
 DN 5.0-Deepskilling-Handbook-Java-FSE-Angular-2.pdf
 dn5_weekly_plan.html
+
+Angular/node_modules/.pnpm/@algolia+abtesting@1.18.0/node_modules/@algolia/requester-browser-xhr/package.json
+Angular/node_modules
+Angular/dist
+Angular/.angular
+Angular/.vscode/

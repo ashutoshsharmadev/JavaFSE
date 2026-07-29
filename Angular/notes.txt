@@ -1,0 +1,27 @@
+angular.json - Contains build, serve, and test settings.
+
+tsconfig.json - Base TypeScript compiler config.
+
+tsconfig.app.json - TypeScript settings
+
+package.json - Lists project metadata, dependencies, and available npm scripts.
+
+src/main.ts - Entry point of the Angular application
+
+src/app/app.config.ts - Define providers and configuration
+
+src/app/app.component.ts - Defines the root component of the application.
+
+src/index.html - The main HTML page where the Angular application is rendered.
+
+student-course-portal/dist/student-course-portal/browser/main-BNJQBWMX.js contains the compiled code
+
+angular.json max warning
+    "configurations": {
+            "production": {
+              "budgets": [
+                {
+                  "type": "initial",
+                  "maximumWarning": "500kB",
+                  "maximumError": "1MB"
+                },

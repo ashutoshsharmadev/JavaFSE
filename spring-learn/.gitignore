@@ -31,3 +31,9 @@ build/
 
 ### VS Code ###
 .vscode/
+
+Angular\node_modules
+# Angular\node_modules
+Angular/dist
+Angular/.angular
+Angular/.vscode/
